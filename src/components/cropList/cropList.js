@@ -41,7 +41,6 @@ function CropList() {
   const errorIcon = <div>ERROR!</div>;
 
   useEffect(() => {
-    document.title = "PLA Plots";
     axios
       .get("https://back-pla.herokuapp.com/api/v1/Crop", {
         params: {
