@@ -1,0 +1,28 @@
+.form-container {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+.params-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-element {
+  padding-bottom: 0.5rem;
+}
+
+.form-button {
+  margin-bottom: 0.5rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  text-align: center;
+  width: 100px;
+  padding: 10px;
+}
+
+.form-button_cancel {
+  background-color: #ba000d;
+}
